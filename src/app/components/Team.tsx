@@ -13,7 +13,7 @@ const team = [
     bookingUrl:
       'https://booksy.com/en-us/26960_adam-peace-owner-master-barber_barber-shop_16252_kennesaw#ba_s=sr_1',
     // PLACEHOLDER — swap with Adam's headshot
-    image: '/images/shop-1.jpg',
+    image: '/images/shop-1.jpeg',
     instagram: '#', // PLACEHOLDER — swap with real IG handle
   },
   {
@@ -23,7 +23,7 @@ const team = [
     quote: 'Hands down the best barber you\'ll ever sit in the chair with.',
     bookingUrl:
       'https://booksy.com/en-us/26960_adam-peace-owner-master-barber_barber-shop_16252_kennesaw#ba_s=sr_1', // PLACEHOLDER — swap with Ty's Booksy link
-    image: '/images/cut-2.jpg', // PLACEHOLDER — swap with Ty's headshot
+    image: '/images/cut-2.jpeg', // PLACEHOLDER — swap with Ty's headshot
     instagram: '#', // PLACEHOLDER
   },
   {
@@ -32,7 +32,7 @@ const team = [
     quote: 'Clean work, sharp lines, no shortcuts.', // PLACEHOLDER
     bookingUrl:
       'https://booksy.com/en-us/26960_adam-peace-owner-master-barber_barber-shop_16252_kennesaw#ba_s=sr_1', // PLACEHOLDER — swap with Pierre's Booksy link
-    image: '/images/cut-3.jpg', // PLACEHOLDER — swap with Pierre's headshot
+    image: '/images/cut-3.jpeg', // PLACEHOLDER — swap with Pierre's headshot
     instagram: '#', // PLACEHOLDER
   },
   {
@@ -41,7 +41,7 @@ const team = [
     quote: 'Every cut is a canvas. I don\'t do average.', // PLACEHOLDER
     bookingUrl:
       'https://booksy.com/en-us/26960_adam-peace-owner-master-barber_barber-shop_16252_kennesaw#ba_s=sr_1', // PLACEHOLDER — swap with Tristan's Booksy link
-    image: '/images/cut-4.jpg', // PLACEHOLDER — swap with Tristan's headshot
+    image: '/images/cut-4.jpeg', // PLACEHOLDER — swap with Tristan's headshot
     instagram: '#', // PLACEHOLDER
   },
   {
@@ -50,7 +50,7 @@ const team = [
     quote: 'Consistency is everything. You\'ll look right every time.', // PLACEHOLDER
     bookingUrl:
       'https://booksy.com/en-us/26960_adam-peace-owner-master-barber_barber-shop_16252_kennesaw#ba_s=sr_1', // PLACEHOLDER — swap with ABL's Booksy link
-    image: '/images/cut-1.jpg', // PLACEHOLDER — swap with ABL's headshot
+    image: '/images/cut-1.jpeg', // PLACEHOLDER — swap with ABL's headshot
     instagram: '#', // PLACEHOLDER
   },
 ]

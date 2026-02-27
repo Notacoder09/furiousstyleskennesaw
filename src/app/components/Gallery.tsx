@@ -5,27 +5,27 @@ import Image from 'next/image'
 
 const galleryImages = [
   {
-    src: '/images/cut-1.jpg',
+    src: '/images/cut-1.jpeg',
     alt: 'Twisted braids with sharp fade',
     span: 'row-span-2', // tall image
   },
   {
-    src: '/images/cut-2.jpg',
+    src: '/images/cut-2.jpeg',
     alt: 'Clean skin fade with waves',
     span: '',
   },
   {
-    src: '/images/cut-3.jpg',
+    src: '/images/cut-3.jpeg',
     alt: 'Precision bald fade',
     span: '',
   },
   {
-    src: '/images/cut-4.jpg',
+    src: '/images/cut-4.jpeg',
     alt: 'Crisp 360 waves with taper',
     span: 'row-span-2',
   },
   {
-    src: '/images/shop-1.jpg',
+    src: '/images/shop-1.jpeg',
     alt: 'Furious Styles barber at work',
     span: 'col-span-2',
   },

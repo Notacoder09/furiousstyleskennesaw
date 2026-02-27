@@ -15,7 +15,7 @@ export default function Hero() {
     >
       {/* Background image — using the shop exterior photo */}
       <Image
-        src="/images/shop-2.jpg"
+        src="/images/shop-2.jpeg"
         alt="Furious Styles Barbershop Kennesaw"
         fill
         className="object-cover"
@@ -38,7 +38,7 @@ export default function Hero() {
         >
           {/* Logo mark */}
           <Image
-            src="/images/logo.png"
+            src="/images/logo.jpg"
             alt="Furious Styles"
             width={100}
             height={100}

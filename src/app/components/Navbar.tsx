@@ -38,7 +38,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.jpg"
               alt="Furious Styles Barbershop"
               width={48}
               height={48}
