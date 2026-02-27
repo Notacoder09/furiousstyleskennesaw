@@ -12,8 +12,8 @@ const team = [
     quote: '15 years of making people feel like the best version of themselves.',
     bookingUrl:
       'https://booksy.com/en-us/26960_adam-peace-owner-master-barber_barber-shop_16252_kennesaw#ba_s=sr_1',
-    // PLACEHOLDER — swap with Adam's headshot
     image: '/images/shop-1.jpeg',
+    isLogo: false,
     instagram: '#', // PLACEHOLDER — swap with real IG handle
   },
   {
@@ -23,7 +23,8 @@ const team = [
     quote: 'Hands down the best barber you\'ll ever sit in the chair with.',
     bookingUrl:
       'https://booksy.com/en-us/26960_adam-peace-owner-master-barber_barber-shop_16252_kennesaw#ba_s=sr_1', // PLACEHOLDER — swap with Ty's Booksy link
-    image: '/images/cut-2.jpeg', // PLACEHOLDER — swap with Ty's headshot
+    image: '/images/logo.jpg', // PLACEHOLDER — swap with Ty's headshot
+    isLogo: true,
     instagram: '#', // PLACEHOLDER
   },
   {
@@ -32,7 +33,8 @@ const team = [
     quote: 'Clean work, sharp lines, no shortcuts.', // PLACEHOLDER
     bookingUrl:
       'https://booksy.com/en-us/26960_adam-peace-owner-master-barber_barber-shop_16252_kennesaw#ba_s=sr_1', // PLACEHOLDER — swap with Pierre's Booksy link
-    image: '/images/cut-3.jpeg', // PLACEHOLDER — swap with Pierre's headshot
+    image: '/images/logo.jpg', // PLACEHOLDER — swap with Pierre's headshot
+    isLogo: true,
     instagram: '#', // PLACEHOLDER
   },
   {
@@ -41,7 +43,8 @@ const team = [
     quote: 'Every cut is a canvas. I don\'t do average.', // PLACEHOLDER
     bookingUrl:
       'https://booksy.com/en-us/26960_adam-peace-owner-master-barber_barber-shop_16252_kennesaw#ba_s=sr_1', // PLACEHOLDER — swap with Tristan's Booksy link
-    image: '/images/cut-4.jpeg', // PLACEHOLDER — swap with Tristan's headshot
+    image: '/images/logo.jpg', // PLACEHOLDER — swap with Tristan's headshot
+    isLogo: true,
     instagram: '#', // PLACEHOLDER
   },
   {
@@ -50,7 +53,8 @@ const team = [
     quote: 'Consistency is everything. You\'ll look right every time.', // PLACEHOLDER
     bookingUrl:
       'https://booksy.com/en-us/26960_adam-peace-owner-master-barber_barber-shop_16252_kennesaw#ba_s=sr_1', // PLACEHOLDER — swap with ABL's Booksy link
-    image: '/images/cut-1.jpeg', // PLACEHOLDER — swap with ABL's headshot
+    image: '/images/logo.jpg', // PLACEHOLDER — swap with ABL's headshot
+    isLogo: true,
     instagram: '#', // PLACEHOLDER
   },
 ]
@@ -102,12 +106,12 @@ export default function Team() {
               className="group relative overflow-hidden rounded-xl bg-brand-darkGray border border-white/5 transition-all duration-300 hover:border-brand-red/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-red/5"
             >
               {/* Barber photo */}
-              <div className="relative h-72 overflow-hidden">
+              <div className={`relative h-72 overflow-hidden ${barber.isLogo ? 'bg-black flex items-center justify-center' : ''}`}>
                 <Image
                   src={barber.image}
                   alt={barber.name}
                   fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  className={`transition-transform duration-500 group-hover:scale-105 ${barber.isLogo ? 'object-contain p-8' : 'object-cover'}`}
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-darkGray via-transparent to-transparent" />
